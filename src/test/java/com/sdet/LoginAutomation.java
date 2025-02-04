@@ -18,7 +18,16 @@ public class LoginAutomation {
 		js.executeScript("document.getElementById('user_password').value='password';");
 		js.executeScript("document.getElementById('user_submit').click();");
 		js.executeScript("alert('enter correct login credentials to continue');");
+		System.out.println("it is from LoginAutomation.java");
 		sleep(2);
+		/*
+		 alert = driver.switchTo().alert();
+	        //Store the alert text in a variable and verify it
+	        text = alert.getText();
+	        assertEquals(text, "Are you sure?");
+	        //Press the Cancel button
+	         
+	         */
 	}
 
 	public static void sleep(int ms) {

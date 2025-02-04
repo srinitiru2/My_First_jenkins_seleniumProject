@@ -11,7 +11,7 @@ import org.openqa.selenium.JavascriptExecutor;
 public class ScrollAction {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new FirefoxDriver();
-
+		System.out.println("it is from ScrollAction.java");
 		Thread.sleep(3000);
 		// launch application
 		driver.get("https://www.tutorialspoint.com/about/about_careers.htm ");

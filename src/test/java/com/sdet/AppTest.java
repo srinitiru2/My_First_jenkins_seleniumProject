@@ -7,6 +7,7 @@ public class AppTest {
 
 	@Test
 	public void testloginCredentials() {
+		System.out.println("it is from AppTest.java");
 		App myapp=new App();
 		
 		int result = myapp.userLogin("Srini", "12345");
