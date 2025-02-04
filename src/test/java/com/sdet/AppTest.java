@@ -16,6 +16,7 @@ public class AppTest {
 	public void testlogin22() {
 		int result = 4 + 4;
 		Assert.assertEquals(8,result);
+		System.out.println("the answer is correct")
 		
 	}
 	
