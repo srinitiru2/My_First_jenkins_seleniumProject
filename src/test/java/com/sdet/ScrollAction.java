@@ -7,9 +7,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import org.openqa.selenium.JavascriptExecutor;
 
-@Test
+ 
 public class ScrollAction {
-	public static void main(String[] args) throws InterruptedException {
+	
+	@Test
+	
+	public static void myScroll() throws InterruptedException {
+	//public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new FirefoxDriver();
 		System.out.println("it is from ScrollAction.java");
 		Thread.sleep(3000);
@@ -19,5 +23,8 @@ public class ScrollAction {
 		WebElement n = driver.findElement(By.xpath("//*[text()='Contact']"));
 		// Javascript executor
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", n);
+		driver.quit();
+		
+		
 	}
 }

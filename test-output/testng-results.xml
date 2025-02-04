@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T10:44:06 EST" name="Suite" finished-at="2025-02-04T10:44:12 EST" duration-ms="6152">
+  <suite started-at="2025-02-04T11:04:35 EST" name="Default suite" finished-at="2025-02-04T11:04:47 EST" duration-ms="11919">
     <groups>
     </groups>
-    <test started-at="2025-02-04T10:44:06 EST" name="Test" finished-at="2025-02-04T10:44:12 EST" duration-ms="6152">
-      <class name="com.sdet.TC_Login">
-        <test-method signature="Login_Test()[pri:0, instance:com.sdet.TC_Login@50eac852]" started-at="2025-02-04T10:44:06 EST" name="Login_Test" finished-at="2025-02-04T10:44:09 EST" duration-ms="2575" status="PASS">
+    <test started-at="2025-02-04T11:04:35 EST" name="Default test" finished-at="2025-02-04T11:04:47 EST" duration-ms="11919">
+      <class name="com.sdet.ScrollAction">
+        <test-method signature="myScroll()[pri:0, instance:com.sdet.ScrollAction@3d51f06e]" started-at="2025-02-04T11:04:35 EST" name="myScroll" finished-at="2025-02-04T11:04:47 EST" duration-ms="11895" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Test -->
-      </class> <!-- com.sdet.TC_Login -->
-      <class name="com.sdet.AppTest">
-        <test-method signature="testSumOfNumbers()[pri:0, instance:com.sdet.AppTest@c33b74f]" started-at="2025-02-04T10:44:06 EST" name="testSumOfNumbers" finished-at="2025-02-04T10:44:06 EST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSumOfNumbers -->
-        <test-method signature="testloginCredentials()[pri:0, instance:com.sdet.AppTest@c33b74f]" started-at="2025-02-04T10:44:06 EST" name="testloginCredentials" finished-at="2025-02-04T10:44:06 EST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testloginCredentials -->
-      </class> <!-- com.sdet.AppTest -->
-      <class name="com.sdet.LoginAutomation">
-        <test-method signature="login()[pri:0, instance:com.sdet.LoginAutomation@16ec5519]" started-at="2025-02-04T10:44:09 EST" name="login" finished-at="2025-02-04T10:44:12 EST" duration-ms="3529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- com.sdet.LoginAutomation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- myScroll -->
+      </class> <!-- com.sdet.ScrollAction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
