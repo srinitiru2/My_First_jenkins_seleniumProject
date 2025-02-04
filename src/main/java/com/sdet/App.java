@@ -11,11 +11,13 @@ public class App {
 		
 		if (in_user.equals(userName)&& in_pwd.equals(passWord))
 		
-				return 1;
-		System.out.println("Userid and Password are correct");
+			//System.out.println("Userid and Password are correct");
+			return 1;
+			
 		else
-				return 0;
-		System.out.println("Userid and Password are NOT correct");
+				
+			System.out.println("Userid and Password are NOT correct");
+			return 0;
 	}
 	
 	
