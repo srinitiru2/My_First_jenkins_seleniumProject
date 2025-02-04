@@ -5,7 +5,7 @@
     <classes>
       <class name="com.sdet.AppTest">
         <methods>
-          <include name="testlogin1"/>
+          <include name="testloginCredentials"/>
         </methods>
       </class> <!-- com.sdet.AppTest -->
     </classes>

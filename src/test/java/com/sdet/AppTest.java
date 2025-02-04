@@ -6,17 +6,21 @@ import org.testng.annotations.Test;
 public class AppTest {
 
 	@Test
-	public void testlogin1() {
+	public void testloginCredentials() {
 		App myapp=new App();
-		Assert.assertEquals(0,myapp.userLogin("abc", "abc123"));
 		
+		int result = myapp.userLogin("Srini", "12345");
+		System.out.println("Result of comaparison is: " + result);
+		//if credentials are correct returns 0
+		Assert.assertEquals(1,result);
+	
 	}
 	
 	@Test
-	public void testlogin22() {
+	public void testSumOfNumbers() {
 		int result = 4 + 4;
 		Assert.assertEquals(8,result);
-		System.out.println("the answer is correct");
+		//System.out.println("sum of the numbers is correct");
 		
 	}
 	

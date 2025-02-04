@@ -5,6 +5,9 @@
     <classes>
       <class name="com.sdet.AppTest"/>
       <class name="com.sdet.TC_Login"/>
+      <class name="com.sdet.LoginAutomation"/>
+      <class name="com.sdet.ScrollAction"/>
+       
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
